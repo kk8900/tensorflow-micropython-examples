@@ -165,7 +165,7 @@ jobs:
           ../../../micropython/ports/esp32
 
       - name: Archive ESP32-MICROLITE_S3_SPIRAM_OCTAL firmware
-        uses: actions/upload-artifact
+        uses: actions/upload-artifact@v3
         with:
           name:  microlite-esp32-s3-spiram-octal-firmware
           path: |
